@@ -107,14 +107,14 @@ function Navbar() {
             alt="De Gaulle Résidence logo"
             className="h-10 w-auto object-contain"
           />
-          <div className="flex flex-col leading-none">
+          {/* <div className="flex flex-col leading-none">
             <span className="font-['Playfair_Display'] text-white text-base font-semibold tracking-widest">
               DE GAULLE
             </span>
             <span className="font-['Montserrat'] text-[#C9A84C] text-[7px] tracking-[0.45em] uppercase mt-0.5">
               RÉSIDENCE
             </span>
-          </div>
+          </div> */}
         </a>
 
         <div className="hidden md:flex items-center gap-7">
@@ -180,7 +180,7 @@ function Hero() {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage:
-            "url(https://ayilaa.s3.eu-west-1.amazonaws.com/attraction/logos/670dd3df49800_1728959455_De%20Gaulle%20Residence%20(6).jpg)",
+            "url('https://ayilaa.s3.eu-west-1.amazonaws.com/attraction/logos/670dd3df49800_1728959455_De%20Gaulle%20Residence%20(6).jpg')",
         }}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-[#0D0D0D]/70 via-[#0D0D0D]/40 to-[#0D0D0D]/80" />
@@ -1680,14 +1680,14 @@ function Footer() {
               alt="De Gaulle Résidence logo"
               className="h-12 w-auto object-contain"
             />
-            <div className="flex flex-col leading-none">
+            {/* <div className="flex flex-col leading-none">
               <span className="font-['Playfair_Display'] text-white text-lg font-semibold tracking-widest">
                 DE GAULLE
               </span>
               <span className="font-['Montserrat'] text-[#C9A84C] text-[7px] tracking-[0.45em] uppercase mt-0.5">
                 RÉSIDENCE
               </span>
-            </div>
+            </div> */}
           </div>
           <p className="font-['DM_Sans'] text-[#999] text-sm leading-relaxed">
             Votre adresse de prestige à Douala.
